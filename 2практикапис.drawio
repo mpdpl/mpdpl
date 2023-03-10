@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-10T14:24:30.942Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.4.778 Yowser/2.5 Safari/537.36" etag="6tjzkskHa_m76oE1TB3m" version="21.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-10T14:30:33.804Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.4.778 Yowser/2.5 Safari/537.36" etag="HTA88IpmIPd9ap9Z_Sen" version="21.0.4" type="github">
   <diagram name="Страница 1" id="R1fI8knFM46AL8KRuFQc">
     <mxGraphModel dx="1290" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -42,6 +42,63 @@
             <mxPoint x="410" y="160" as="sourcePoint" />
             <mxPoint x="440" y="180" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0z2aXLC-eHsc-PqNtjn--14" value="Учитель" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0z2aXLC-eHsc-PqNtjn--15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.056;exitY=0.765;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0z2aXLC-eHsc-PqNtjn--6" target="0z2aXLC-eHsc-PqNtjn--14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="330" as="sourcePoint" />
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0z2aXLC-eHsc-PqNtjn--16" value="Выгрузка домашнего задания, ведение контроля успеваемости, оповещение родителей" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="280" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="0z2aXLC-eHsc-PqNtjn--17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="0z2aXLC-eHsc-PqNtjn--14" target="0z2aXLC-eHsc-PqNtjn--16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="290" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0z2aXLC-eHsc-PqNtjn--18" value="После получения нужной категории прав" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0z2aXLC-eHsc-PqNtjn--19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0z2aXLC-eHsc-PqNtjn--16" target="0z2aXLC-eHsc-PqNtjn--18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="280" as="sourcePoint" />
+            <mxPoint x="440" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0z2aXLC-eHsc-PqNtjn--23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0z2aXLC-eHsc-PqNtjn--20" target="0z2aXLC-eHsc-PqNtjn--26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="530" />
+              <mxPoint x="270" y="540" />
+              <mxPoint x="354" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0z2aXLC-eHsc-PqNtjn--28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0z2aXLC-eHsc-PqNtjn--20" target="0z2aXLC-eHsc-PqNtjn--27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0z2aXLC-eHsc-PqNtjn--20" value="Родитель" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="500" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0z2aXLC-eHsc-PqNtjn--25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0z2aXLC-eHsc-PqNtjn--24" target="0z2aXLC-eHsc-PqNtjn--26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0z2aXLC-eHsc-PqNtjn--24" value="Учащийся" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="640" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0z2aXLC-eHsc-PqNtjn--26" value="Просмотр успеваемости, просмотр домашнего задания&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0z2aXLC-eHsc-PqNtjn--27" value="Заполнение информации об отсутствие учащегося" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="410" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
