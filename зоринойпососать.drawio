@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T15:15:32.487Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.5.708 Yowser/2.5 Safari/537.36" version="21.1.0" etag="6cgJoQm24BO3I69Kxv3j" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-27T15:29:26.681Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.5.708 Yowser/2.5 Safari/537.36" etag="V6LO1k4zWlrkA1mOCxkf" version="21.1.0" type="github">
   <diagram name="Страница 1" id="gXIiddCUhZTjF7HC0v3w">
-    <mxGraphModel>
+    <mxGraphModel dx="1290" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fE_yutSVwWs-IIvI3e8K-1" value="Пользователь" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="210" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fE_yutSVwWs-IIvI3e8K-2" value="Датчик температуры и влажности" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fE_yutSVwWs-IIvI3e8K-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=-0.013;entryY=0.417;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fE_yutSVwWs-IIvI3e8K-1" target="fE_yutSVwWs-IIvI3e8K-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="280" as="sourcePoint" />
+            <mxPoint x="200" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fE_yutSVwWs-IIvI3e8K-4" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=5;" vertex="1" connectable="0" parent="fE_yutSVwWs-IIvI3e8K-3">
+          <mxGeometry x="-0.2821" y="2" relative="1" as="geometry">
+            <mxPoint x="8" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fE_yutSVwWs-IIvI3e8K-5" value="Съем показаний с датчика" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fE_yutSVwWs-IIvI3e8K-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fE_yutSVwWs-IIvI3e8K-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="300" as="sourcePoint" />
+            <mxPoint x="400" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fE_yutSVwWs-IIvI3e8K-7" value="Вывод информации о недопустимых значениях" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fE_yutSVwWs-IIvI3e8K-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="fE_yutSVwWs-IIvI3e8K-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="220" as="sourcePoint" />
+            <mxPoint x="560" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fE_yutSVwWs-IIvI3e8K-9" value="Превышение показаний" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-35;" vertex="1" connectable="0" parent="fE_yutSVwWs-IIvI3e8K-8">
+          <mxGeometry x="-0.29" y="-4" relative="1" as="geometry">
+            <mxPoint x="6" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fE_yutSVwWs-IIvI3e8K-10" value="Вывод температуры и влажности" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fE_yutSVwWs-IIvI3e8K-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.937;exitY=0.758;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fE_yutSVwWs-IIvI3e8K-5" target="fE_yutSVwWs-IIvI3e8K-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="370" as="sourcePoint" />
+            <mxPoint x="540" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fE_yutSVwWs-IIvI3e8K-12" value="Допустимые показания" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=35;" vertex="1" connectable="0" parent="fE_yutSVwWs-IIvI3e8K-11">
+          <mxGeometry x="-0.4529" y="-1" relative="1" as="geometry">
+            <mxPoint x="31" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
